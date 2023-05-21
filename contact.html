@@ -1,0 +1,68 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="style.css" />
+    <title>Contact Me</title>
+  </head>
+  <body>
+    <header class="contactsa-header">
+      <ul class="header-list">
+        <div class="Home">
+          <li>
+            <button class="he-bu" onclick="window.location.href='index.html'">
+              Home
+            </button>
+          </li>
+        </div>
+        <div class="sec-head-list">
+          <li>
+            <button class="he-bu" onclick="window.location.href='about.html'">
+              About
+            </button>
+          </li>
+          <li><button class="he-bu">Contact</button></li>
+        </div>
+      </ul>
+    </header>
+    <div class="contact-page">
+      <section class="contact-section">
+        <h1>Contact Me</h1>
+        <form
+          class="contact-form"
+          action="https://formsubmit.co/momanatiah444@gmail.com" method="POST" />
+          <label for="name">Name:</label>
+          <input
+            type="text"
+            id="name"
+            name="name"
+            required
+            placeholder="Name"
+          />
+          <label for="email">Email:</label>
+          <input
+            type="email"
+            id="email"
+            name="email"
+            required
+            placeholder="email"
+          />
+          <label for="message">Message:</label>
+          <textarea
+            id="message"
+            name="message"
+            required
+            placeholder="Message"
+          ></textarea>
+          <input type="hidden" name="_captcha" value="false">
+          <button type="submit">Send Message</button>
+        </form>
+      </section>
+    </div>
+    <div class="bottom"></div>
+
+    <script src="script.js"></script>
+  </body>
+</html>
