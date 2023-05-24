@@ -20,7 +20,7 @@ body {
   font-family: "Rubik", sans-serif;
   line-height: 1;
   font-weight: 400;
-  color: white;
+  color: #ffffff;
 
   /* Only works if there is nothing absolutely positioned in relation to body */
   overflow-x: hidden;
@@ -28,7 +28,7 @@ body {
 
 h1 {
   font-size: 3.8rem;
-  color: white;
+  color: #ffffff;
   font-weight: 700;
 }
 p {
@@ -39,7 +39,7 @@ p {
 
 h3 {
   margin-top: 2rem;
-  color: #155bd5;
+  color: #00171f;
   font-size: 2.4rem;
   text-align: center;
   box-shadow: 2px black;
@@ -62,11 +62,12 @@ h3 {
   scale: 100%;
   transition: 0.3s;
   cursor: pointer;
+  color: #00171f;
 }
 
 .he-bu:hover {
   scale: 110%;
-  color: #cd6701;
+  color: #00a8e8;
 }
 
 .hero-section {
@@ -75,7 +76,7 @@ h3 {
   height: 100vh; /* Set the height to 100% of the viewport height */
   width: 100%; /* Set the width to 100% of the parent container */
   gap: 4.4rem;
-  background-color: #155bd5;
+  background-color: #00171f;
   margin-bottom: 8rem;
 }
 
@@ -86,7 +87,7 @@ h3 {
   width: 90%;
   justify-self: end;
   gap: 4.4rem;
-  background-color: #155bd5;
+  background-color: #00171f;
   background-image: url("Untitled\ design.png");
   background-size: cover;
   background-position: center;
@@ -120,7 +121,7 @@ button {
   padding: 12px 24px;
   border-radius: 4px;
   border: 1px solid transparent;
-  color: #155bd5;
+  color: #00a8e8;
   box-shadow: 0 3px 8px #00000043;
 }
 
@@ -134,9 +135,9 @@ button {
 
 .contact-head {
   font-size: 3rem;
-  color: white;
+  color: #ffffff;
   text-align: center;
-  background-color: #155bd5;
+  background-color: #00171f;
   padding-bottom: 4rem;
   padding-top: 4rem;
   margin-bottom: 16rem;
@@ -145,7 +146,7 @@ button {
 .icon {
   height: 8rem;
   width: 6rem;
-  fill: #155bd5;
+  fill: #00a8e8;
   scale: 100%;
   transition: 0.3s;
   cursor: pointer;
@@ -153,6 +154,18 @@ button {
 
 .icon :hover {
   scale: 110%;
+}
+
+.youtube {
+  fill: red;
+}
+
+.instagram {
+  fill: #00a8e8;
+}
+
+.amazon {
+  fill: black;
 }
 
 .social-links-a {
@@ -176,25 +189,32 @@ button {
 
 .video-section-header {
   font-size: 3rem;
-  color: white;
+  color: #ffffff;
   text-align: center;
-  background-color: #155bd5;
+  background-color: #00171f;
   padding-bottom: 4rem;
   padding-top: 4rem;
   margin-bottom: 8rem;
 }
+.author {
+  border: 2px solid #00171f;
+}
 
+.pro {
+  padding-bottom: 3rem;
+  margin-left: 35%;
+}
 .video-container {
   display: grid;
   grid-template-columns: 1fr 1fr;
   padding: 2rem 8rem;
 }
 .video iframe {
-  border: 2px solid #155bd5;
+  border: 2px solid #00171f;
 }
 .video-details {
   font-size: 1.8rem;
-  color: #155bd5;
+  color: #00171f;
   text-align: center;
 }
 
@@ -202,7 +222,7 @@ button {
   text-align: start;
   padding-top: 2rem;
   font-size: 1.6rem;
-  color: #155bd5;
+  color: #00171f;
 }
 
 .amazon-section {
@@ -211,7 +231,7 @@ button {
 }
 
 footer {
-  background-color: #155bd5;
+  background-color: #00171f;
   padding: 20px;
   text-align: center;
   font-size: 14px;
@@ -224,12 +244,12 @@ footer {
 
 .footer-links a:hover {
   font-size: larger;
-  color: #cd6701;
+  color: #00a8e8;
 }
 
 .footer-links a {
   cursor: pointer;
-  color: white;
+  color: #ffffff;
 }
 
 .footer-container {
@@ -251,7 +271,7 @@ footer {
 }
 
 .footer-links a {
-  color: white;
+  color: #ffffff;
   font-weight: bold;
   margin: 0rem 2rem;
   text-decoration: none;
@@ -283,12 +303,12 @@ footer {
 
 /* *********** contact me page ************** */
 .contactsa-header {
-  background-color: #155bd5;
+  background-color: #00171f;
   padding-bottom: 12rem;
 }
 
 .contact-page {
-  background-color: #155bd5;
+  background-color: #00171f;
 }
 .contact-section {
   margin: 0 auto;
@@ -297,7 +317,7 @@ footer {
   width: 80%;
   justify-self: center;
   align-self: center;
-  background-color: white;
+  background-color: #ffffff;
   border: 1px solid black;
   border-radius: 11px;
   box-shadow: 2px 5px 30px #00000080;
@@ -305,7 +325,7 @@ footer {
 
 .contact-section h1 {
   text-align: center;
-  color: #155bd5;
+  color: #00171f;
   font-size: 4rem;
   font-weight: 700;
   margin-bottom: 2rem;
@@ -318,7 +338,7 @@ footer {
 }
 
 .contact-form label {
-  color: #155bd5;
+  color: #00171f;
   font-size: 1.4rem;
   font-weight: lighter;
 }
@@ -327,16 +347,16 @@ footer {
 .contact-form textarea {
   padding: 0.8rem;
   border-radius: 4px;
-  border: 2px solid #155bd5;
+  border: 2px solid #00171f;
 }
 
 .contact-form input[type="text"],
 .contact-form input[type="email"] {
-  background-color: rgba(255, 255, 255, 0.8);
+  background-color: #ffffff;
 }
 
 .contact-form textarea {
-  background-color: rgba(255, 255, 255, 0.8);
+  background-color: #ffffff;
   resize: vertical;
 }
 
@@ -350,14 +370,14 @@ footer {
   padding: 1.2rem 2.4rem;
   border-radius: 4px;
   border: 1px solid transparent;
-  color: #155bd5;
-  background-color: white;
+  color: #00171f;
+  background-color: #ffffff;
   cursor: pointer;
 }
 
 .bottom {
   padding: 6.5rem;
-  background-color: #155bd5;
+  background-color: #00171f;
 }
 
 /* *********** About page ************** */
