@@ -156,7 +156,7 @@ button {
 }
 .about-right {
   background: #fff;
-  height: 100vh;
+  height: 160vh;
   display: flex;
   flex-direction: column;
   align-items: center;
@@ -214,6 +214,9 @@ button {
   font-weight: 300;
   padding: 0.5rem;
   opacity: 0.8;
+}
+.about-para {
+  text-align: left;
 }
 
 @media screen and (min-width: 992px) {
